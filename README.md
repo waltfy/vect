@@ -40,7 +40,7 @@ vect.angle([1, 2, 3], [1, 2, 3]); // 1
 ```
 
 ## Change Log
-`0.0.1` - Initial release.
+`1.0.0` - Initial release.
 
 ## Licensing
 
