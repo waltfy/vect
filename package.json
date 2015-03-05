@@ -1,7 +1,7 @@
 {
   "name": "vect",
   "version": "1.0.0",
-  "description": "A (Multidimensional) Vector Maths Lightweight Library",
+  "description": "A Lightweight (Multidimensional) Vector Computation Library",
   "main": "index.js",
   "scripts": {
     "test": "tap test/"
