@@ -35,6 +35,9 @@ Computes the cosine similarity (or angle between) two vectors `a` and `b`, retur
 vect.angle([1, 2, 3], [1, 2, 3]); // 1
 ```
 
+## Change Log
+`0.0.1` - Initial release.
+
 ## Licensing
 
 The MIT License (MIT)
