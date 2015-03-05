@@ -5,14 +5,33 @@ A (Multidimensional) Vector Maths Lightweight Library
 
 Summary:
   - [Addition](#addition---vectadda-b)
-  - [Magnitude](#magnitude---)
-  - [Dot Product]()
-  - [Cosine Similarity]()
+  - [Magnitude](#magnitude---vectmaga-or-vectmagnitudea)
+  - [Dot Product](#dot-product---vectdota-b)
+  - [Cosine Similarity](#cosine-similarity-angle---vectanglea-b)
 
 ### Addition - `vect.add(a, b)`
+Adds two vectors `a` and `b`, returning a `number`.
+```js
+vect.add([1, 2, 3], [3, 2, 1]); // x
+```
+
 ### Magnitude - `vect.mag(a)`, or `vect.magnitude(a)`
-### Dot Product - `vect.dot(a)`
+Computes the magnitude of a vector `a`, returning a `number`.
+```js
+vect.mag([1, 2, 3]); // x
+```
+
+### Dot Product - `vect.dot(a, b)`
+Computes the dot product of two vectors `a` and `b`, returning a `number`.
+```js
+vect.dot([1, 2, 3], [3, 2, 1]); //
+```
+
 ### Cosine Similarity (Angle) - `vect.angle(a, b)`
+Computes the cosine similarity (or angle between) two vectors `a` and `b`, returning a `number`.
+```js
+vect.angle([1, 2, 3], [1, 2, 3]); // 1
+```
 
 ## Licensing
 
