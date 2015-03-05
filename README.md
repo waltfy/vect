@@ -1,18 +1,22 @@
 # vect
-A (Multidimensional) Vector Maths Lightweight Library
+A (Multidimensional) Lightweight Vector Computation Library
 
-**NOTE** that this library makes an assumption that vectors are simply lists (or `Array`s) of `numbers`, such as `[1, 2, 3, 4]`.
+**NOTE** that this library makes an assumption that vectors are simply lists (`Array`) of `numbers`, such as `[1, 2, 3, 4]`.
+
+## Install
+
+`npm install {}` or just add `vect.min.js` to your page.
 
 ## API
 
 Summary:
-  - [Addition](#addition---vectadda-b)
+  - [Addition](#addition---vectadd)
   - [Magnitude](#magnitude---vectmaga-or-vectmagnitudea)
   - [Dot Product](#dot-product---vectdota-b)
   - [Cosine Similarity](#cosine-similarity-angle---vectanglea-b)
 
-### Addition - `vect.add(a, b)`
-Adds two vectors `a` and `b`, returning a `number`.
+### Addition - `vect.add()`
+Adds `n` vectors, returning a vector `Array`.
 ```js
 vect.add([1, 2, 3], [3, 2, 1]); // x
 ```
@@ -34,6 +38,9 @@ Computes the cosine similarity (or angle between) two vectors `a` and `b`, retur
 ```js
 vect.angle([1, 2, 3], [1, 2, 3]); // 1
 ```
+
+## Change Log
+`0.0.1` - Initial release.
 
 ## Licensing
 
