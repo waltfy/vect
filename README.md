@@ -9,10 +9,10 @@ Summary:
   - Dot Product
   - Cosine Similarity
 
-### `vect.add(a, b)` - Addition
-### `vect.mag(a)`, or `vect.magnitude(a)` - Magnitude
-### `vect.dot(a)` - Dot Product
-### `vect.angle(a, b)` - Cosine Similarity (Angle)
+### Addition - `vect.add(a, b)`
+### Magnitude - `vect.mag(a)`, or `vect.magnitude(a)`
+### Dot Product - `vect.dot(a)`
+### Cosine Similarity (Angle) - `vect.angle(a, b)`
 
 ## Licensing
 
