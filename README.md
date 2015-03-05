@@ -5,7 +5,7 @@ A Lightweight (Multidimensional) Vector Computation Library
 
 ## Install
 
-`npm install vect` or just add `vect.min.js` to your page.
+`npm install vect` and require it in your script `var vect = require('vect');`.
 
 ## API
 
