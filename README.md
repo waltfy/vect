@@ -1,5 +1,5 @@
 # vect
-A (Multidimensional) Vector Maths Lightweight Library
+A (Multidimensional) Lightweight Vector Computation Library
 
 **NOTE** that this library makes an assumption that vectors are simply lists (`Array`) of `numbers`, such as `[1, 2, 3, 4]`.
 
