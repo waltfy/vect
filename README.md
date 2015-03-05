@@ -10,13 +10,13 @@ A (Multidimensional) Lightweight Vector Computation Library
 ## API
 
 Summary:
-  - [Addition](#addition---vectadda-b)
+  - [Addition](#addition---vectadd)
   - [Magnitude](#magnitude---vectmaga-or-vectmagnitudea)
   - [Dot Product](#dot-product---vectdota-b)
   - [Cosine Similarity](#cosine-similarity-angle---vectanglea-b)
 
-### Addition - `vect.add(a, b)`
-Adds two vectors `a` and `b`, returning a `number`.
+### Addition - `vect.add()`
+Adds `n` vectors, returning a vector `Array`.
 ```js
 vect.add([1, 2, 3], [3, 2, 1]); // x
 ```
