@@ -1,6 +1,35 @@
 'use strict';
 
+function findShortest(list) {
+  var cachedIndex = 0;
+  var smallest = Infinity;
+  list.forEach(function (item, index) {
+    if (item.length < smallest) {
+      cachedIndex = index;
+      smallest = item.length;
+    }
+  });
+  return cachedIndex;
+};
+
 module.exports = {
+
+  isVector: function isVector(a) {
+    // is a array
+    // are all of the elements in that array numbers?
+    return false;
+  },
+
+  add: function add() {
+    var vectors = [].slice.call(arguments);
+    return vectors[findShortest(vectors)]
+      .map(function (item, index) {
+        return vectors.reduce(function (fold, v) {
+          fold += v[index];
+          return fold;
+        }, 0);
+      })
+  },
 
   magnitude: function magnitude(a) {
     return Math.sqrt(a.reduce(function (fold, n) {

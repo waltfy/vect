@@ -11,6 +11,11 @@ var V = {
 
 test('vect', function (t) {
 
+  t.test('add', function (t) {
+    t.deepEqual(vect.add(V.a, V.b, V.c), [100, 3, 8], 'addition of abc is correct');
+    t.end();
+  });
+
   t.test('magnitude', function (t) {
     t.equal(vect.magnitude(V.a), 3.7416573867739413, 'magnitude of a is correct');
     t.equal(vect.magnitude(V.b), 99.13122616007531, 'magnitude of b is correct');
