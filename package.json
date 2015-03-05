@@ -1,13 +1,14 @@
 {
   "name": "vect",
   "version": "1.0.0",
-  "description": "Simple Vector Maths",
+  "description": "A (Multidimensional) Vector Maths Lightweight Library",
   "main": "index.js",
   "scripts": {
     "test": "tap test/"
   },
   "keywords": [
     "vector",
+    "multidimensional",
     "maths",
     "cosine",
     "dot",
