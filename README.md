@@ -15,7 +15,7 @@ Summary:
   - [Dot Product](#dot-product---vectdota-b)
   - [Cosine Similarity](#cosine-similarity-angle---vectanglea-b)
 
-### Addition - `vect.add()`
+### Addition - `vect.add([a, ...])`
 Adds `n` vectors, returning a vector `Array`.
 ```js
 vect.add([1, 2, 3], [3, 2, 1]); // [4, 4, 4]
