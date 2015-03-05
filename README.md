@@ -18,17 +18,17 @@ Summary:
 ### Addition - `vect.add()`
 Adds `n` vectors, returning a vector `Array`.
 ```js
-vect.add([1, 2, 3], [3, 2, 1]); // x
+vect.add([1, 2, 3], [3, 2, 1]); // [4, 4, 4]
 ```
 
 ### Magnitude - `vect.mag(a)`, or `vect.magnitude(a)`
 Computes the magnitude of a vector `a`, returning a `number`.
 ```js
-vect.mag([1, 2, 3]); // x
+vect.mag([1, 2, 3]); // 3.7416573867739413
 ```
 
 ### Dot Product - `vect.dot(a, b)`
-Computes the dot product of two vectors `a` and `b`, returning a `number`.
+Computes the dot product of two vectors `a` and `b`, returning a scalar (`Array`).
 ```js
 vect.dot([1, 2, 3], [3, 2, 1]); //
 ```
