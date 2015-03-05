@@ -1,0 +1,22 @@
+{
+  "name": "vect",
+  "version": "1.0.0",
+  "description": "Simple Vector Maths",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/"
+  },
+  "keywords": [
+    "vector",
+    "maths",
+    "cosine",
+    "dot",
+    "product",
+    "magnitude"
+  ],
+  "author": "@waltfy",
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^0.7.1"
+  }
+}
