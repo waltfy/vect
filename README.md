@@ -4,10 +4,10 @@ A (Multidimensional) Vector Maths Lightweight Library
 ## API
 
 Summary:
-  - Addition
-  - Magnitude
-  - Dot Product
-  - Cosine Similarity
+  - [Addition](#addition---vectadda-b)
+  - [Magnitude](#magnitude---)
+  - [Dot Product]()
+  - [Cosine Similarity]()
 
 ### Addition - `vect.add(a, b)`
 ### Magnitude - `vect.mag(a)`, or `vect.magnitude(a)`
