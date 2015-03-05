@@ -1,6 +1,17 @@
 # vect
 A (Multidimensional) Vector Maths Lightweight Library
 
+## API
+
+Summary:
+  - Addition
+  - Magnitude
+  - Dot Product
+  - Cosine Similarity
+
+### Addition
+### Magnitude
+
 ## Licensing
 
 The MIT License (MIT)
